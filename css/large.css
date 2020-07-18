@@ -1,0 +1,151 @@
+#welcomeAvatarContainer {
+    text-align: right;
+}
+
+#welcomeText {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+#mainContainer {
+   /* color: #F4976C; */
+    color: #303c6c;
+    font-family: "Georgia", serif;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FBE8A6;
+    background-image: url("../images/background-bar.png");
+    background-position: left top;
+    background-repeat: repeat-y;
+}
+
+#aboutMeContainer {
+    color: #303c6c;
+    background-color: #f4976c;
+    padding-top: 24px;
+    background-image: url("../images/section-break-yellow-orange3.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    border: none;
+}
+
+#aboutMeContent {
+    margin-top: 85px;
+    padding-top: 25px;
+    color: #303c6c;
+    background-color: #f4976c;
+    font-weight: bold;
+    text-align: center;
+}
+
+#projectsContainer {
+    color: #FBE8A6;
+    background-color: #f4976c;
+    padding-top: 25px;
+    background-image: url("../images/section-break-orange-blue2.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 110%;
+}
+
+#projectContent {
+    margin-top: 82px;
+    background-color: #303c6c;
+    font-weight: bold;
+}
+
+#externalLinkIcons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #303c6c;
+    color: #FBE8A6;
+    text-align: center;
+    border-top: 1px solid #FBE8A6;
+    border-bottom: 1px solid #FBE8A6;
+}
+
+footer {
+    background-color: #303c6c;
+    text-align: center;
+}
+
+#topBar {
+    background-color: #FBE8A6;
+    height: 80px;
+    background-image: url("../images/section-break-topbar-inverse2.png");
+    background-size: 106%;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #303c6c;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+nav {
+    padding-top: 15px;
+}
+
+
+body {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#aboutMeContent img {
+    padding-right: 25px;
+    padding-bottom: 50px;
+}
+
+#projectHeader {
+    min-width: 225px;
+    padding-top: 85px;
+}
+
+#projectDescription {
+    padding-top: 20px;
+}
+
+#gitHub {
+    margin-left: 10px;
+}
+
+#screenshots {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#screenshots img {
+    text-align: center;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+#headerTools {
+    font-weight: normal;
+    font-size: .75em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#projectImage {
+    margin-top: 15px;
+}
+
+#contactIcons {
+    width: 60px;
+    padding-right: 25px;
+}
