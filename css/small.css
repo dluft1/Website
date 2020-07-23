@@ -1,15 +1,13 @@
 #welcomeAvatarContainer {
-    border: 2px solid black;
     text-align: center;
 }
 
 #welcomeText {
-    border: 2px solid green;
     text-align: center;
 }
 
 .avatarImage {
-    height: 250px;
+    height: 550px;
 }
 
 img {
@@ -19,14 +17,25 @@ img {
 
 #mainContainer {
     padding-top: 25px;
+    /*background-color: #FBE8A6; */
+    background: rgb(251,232,166);
+    background: linear-gradient(0deg, rgba(251,232,166,1) 82%, rgba(244,151,108,1) 100%);
 }
 
 #aboutMeContainer {
-    padding: 50px 50px 0px 50px;
+    font-weight: bold;
+    color: #303c6c;
+    background: rgb(244,151,108);
+    background: linear-gradient(0deg, rgba(244,151,108,1) 82%, rgba(251,232,166,1) 100%);
+    padding: 100px 50px 50px 50px;
 }
 
 #projectsContainer {
-    padding: 50px 50px 0px 50px;
+    font-weight: bold;
+    color: #FBE8A6;
+    background: rgb(48,60,108);
+    background: linear-gradient(0deg, rgba(48,60,108,1) 82%, rgba(244,151,108,1) 100%);
+    padding: 150px 50px 0px 50px;
 }
 
 #externalLinkIcons {
@@ -35,4 +44,26 @@ img {
 
 footer {
     text-align: center;
+}
+
+#topBar {
+    background-color: #f4976c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#languageIcon {
+    margin-right: 15px;
+    margin-top: 25px;
+    width: 75px;
+    height: 75px;
+}
+
+#cssIcon {
+    margin-right: 15px;
+    height: 75px;
+}
+
+#projectImage {
+    display: none;
 }
