@@ -9,7 +9,6 @@
 }
 
 #mainContainer {
-   /* color: #F4976C; */
     color: #303c6c;
     font-family: "Georgia", serif;
     margin-top: 0px;
@@ -29,7 +28,6 @@
     background-position: left top;
     background-repeat: no-repeat;
     background-size: 110%;
-    border: none;
 }
 
 #aboutMeContent {
@@ -92,6 +90,7 @@ nav {
 
 
 body {
+    text-align: left;
     font-size: 1.5em;
 }
 
@@ -143,9 +142,32 @@ h3 {
 
 #projectImage {
     margin-top: 15px;
+    width: 225px;
 }
 
 #contactIcons {
     width: 60px;
     padding-right: 25px;
+}
+
+#blackBackground {
+    text-align: center;
+    display: none;
+}
+
+ul {
+    text-align: left;
+}
+
+#knowledge {
+    padding-top: 20px;
+    text-align: left;
+}
+
+p {
+    text-align: left;
+}
+
+ul {
+    padding-bottom: 20px;
 }
